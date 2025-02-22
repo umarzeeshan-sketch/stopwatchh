@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stop watch</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+        h1{
+            display: inline;
+            
+        }
+       .java{
+        color: orange;
+        width: 100px;
+       }
+       .watch{
+        color: white;
+        width: 100px;
+       }
+       .main2{
+    
+        background-color: black;
+        color: white;
+        width: 60%;
+        border-radius: 10px;
+      margin: auto;
+
+     
+        
+       }
+       .main{
+    
+        text-align: center;
+       }
+     
+       
+
+    </style>
+</head>
+<body>
+    <br><br>
+    <center><h1 class="java">JAVASCRIPT</h1><h1 class="watch">STOPWATCH</h1></center> 
+    <br><br><br>
+    <div class="main">
+        <div class="main2"><h1 id="min">00</h1>
+            <h1>:</h1>
+        <h1 id="sec">00</h1>
+        <h1>:</h1>
+        <h1 id="msec">00</h1>
+        </div>
+    </div>
+    <br>
+    <div class="main">
+        <button style=" width: 80px; background-color: red; color: white; border-radius: 5px; border-color: red;" onclick="pause()" >stop</button>
+        <button style="width: 80px; margin-left: 10%; margin-right: 10%; background-color: green; color: white;  border-radius: 5px; border-color: green;" id="btn" onclick="start()">start</button>
+        <button style="width: 80px; background-color: blue; color: white;  border-radius: 5px; border-color: blue;" onclick="reset()">reset</button>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
